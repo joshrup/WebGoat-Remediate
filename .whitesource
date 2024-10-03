@@ -2,9 +2,9 @@
   "settingsInheritedFrom": "joshrup/whitesource-config@main",
   "remediateSettings": {
     "workflowRules": {
-      "enabled": true
+      "enabled": false
     },
-    "enableRenovate": false,
+    "enableRenovate": true,
     "ignorePresets": ["config:recommended", "github>mend-toolkit/mend-examples//Repo-Integration/Renovate/smart-merge"],
     "packageRules":[
      {
