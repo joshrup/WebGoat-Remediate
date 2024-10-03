@@ -14,7 +14,7 @@
       {
       	 "matchConfidence": ["low"],
          "commitMessagePrefix": "[LOW] "
-      },
+      }
 
 
 ]
