@@ -5,6 +5,18 @@
       "enabled": true
     },
     "enableRenovate": false,
-    "ignorePresets": ["config:recommended", "github>mend-toolkit/mend-examples//Repo-Integration/Renovate/smart-merge"]
+    "ignorePresets": ["config:recommended", "github>mend-toolkit/mend-examples//Repo-Integration/Renovate/smart-merge"],
+    "packageRules":[
+     {
+      	 "groupName": "Spring Updates",
+      	 "matchPackagePatterns": ["org.spring*"]
+     },
+      {
+      	 "matchConfidence": ["low"],
+         "commitMessagePrefix": "[LOW] "
+      },
+
+
+]
   }
 }
