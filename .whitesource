@@ -9,7 +9,7 @@
     "packageRules":[
      {
       	 "groupName": "Spring Updates",
-      	 "matchPackagePatterns": ["org.springframework:**"]
+      	 "matchPackagePatterns": ["^org.springframework"]
      },
       {
       	 "matchConfidence": ["low"],
