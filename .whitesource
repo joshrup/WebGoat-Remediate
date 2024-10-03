@@ -5,7 +5,7 @@
       "enabled": false
     },
     "enableRenovate": true,
-    "ignorePresets": ["config:recommended", "github>mend-toolkit/mend-examples//Repo-Integration/Renovate/smart-merge"],
+    "ignorePresets": ["github>mend-toolkit/mend-examples//Repo-Integration/Renovate/smart-merge"],
     "packageRules":[
      {
       	 "groupName": "Spring Updates",
